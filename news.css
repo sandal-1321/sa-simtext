@@ -1,0 +1,557 @@
+body{
+	margin: 0px;
+
+}
+.navbar
+{
+	box-shadow:0px 2px 9px rgba(0, 0, 0, 0.4) ;
+	background-color: white;
+}
+.navbar-brand
+{
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	color: black !important;
+	text-shadow: 5px 5px 10px rgba(251,219,5, 0.7);
+}
+.navbar-header a
+{
+	font-size:30px;
+}
+.dropdown-menu li 
+{
+	text-align: center;
+	font-family: Bahnschrift;
+}
+.dropdown-menu .dropdown-header a
+{
+	font-family: Bernard MT;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.dropdown-menu .dropdown-header a:hover
+{
+   color:red;
+   transition: 0.9s;
+}
+.navbar-nav .nav-item
+{
+	font-size:18px;
+	text-align: center;
+	list-style-type: none;
+	margin: 20px 30px 20px 0px;	
+}
+.navbar-nav li a
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navbar-nav li a:hover
+{
+	
+	color: red;
+	transition: 0.6s;
+}
+
+
+.fa-envelope
+{
+	margin: 15px 15px 0px 0px;
+	width: 24px;
+	height: auto;
+	background-color:black;
+	color: yellow;
+	padding: 5px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.fa-cart-shopping
+{
+	margin: 15px 15px 0px 0px;
+	width: 27px;
+	height: auto;
+	background-color:black;
+	color: yellow;
+	padding: 5px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.navbar-right
+{
+	text-align: right;
+	padding: 0px;
+	margin:2px 3px;
+}
+
+.fa-mobile
+{
+	color: black;
+}
+.text
+{
+	margin-top:7% ;
+	margin-left:180px;
+	font-size: 50px;
+	font-family: courier New;
+}
+ .fa-teamspeak
+ {
+ 	margin-left: -10pxs;
+ 	cursor: pointer;
+ 	color: black;
+ }
+  .fa-teamspeak:hover
+  {
+  	color: red;
+  }
+.mobi
+{
+	font-weight: bold;
+	margin-left:15px;
+	cursor: pointer;
+}
+.mobi:hover
+{
+	color: red;
+}
+
+.ser
+{
+	font-size: 50px;
+	font-family: courier New;
+	margin-left: 100px;
+	margin-top: -30px;
+}
+.container .colom 
+{
+	margin-top: 2px;
+	margin-left: 200px;
+	padding-top: 10px;
+	padding-left: 3px;
+	font-size: 23px;
+	list-style-type:none ;
+	box-shadow:3px 2px 4px rgba(0, 0, 0, 0.7),-5px -5px 6px rgba(0, 0, 0, 0.7) ;
+	width: 250px;
+	height: 180px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.sales
+{
+	margin-top: 100px;
+}
+.carousel
+{
+	margin-top: 100px;
+}
+.carousel-inner
+{
+	margin-top:70px;
+	width: 600px;
+	height: 340px;
+	border: 2px solid black;
+	border-radius: 70%;
+	border: none;
+	overflow: hidden;
+}
+.carousel-inner .item .tran
+{
+	margin-left: 40px;
+	width: 500px;
+	height: 400px;
+}
+.carousel-inner .item .tran1
+{
+    width: 700px;
+	height: 400px;
+}
+.carousel-inner .item .tran2
+{
+    width: 700px;
+	height: 400px;
+}
+.section1
+{
+	margin-top:150px;
+	font-family: Algirian;
+	font-size: 80px;
+	font-weight: bold;
+	cursor: pointer;
+	 text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+	 transition: 1s ;
+}
+.section1:hover
+{
+	color: red;
+	transform: scale(0.9);
+}
+.bran 
+{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.bran img
+{
+	width: 250px;
+	height: 250px;
+}
+.car1
+{
+	width: 18rem;
+	cursor:pointer;
+}
+.card1-img-top
+{
+	transition: 2s;
+}
+.card1-img-top:hover
+{
+	transform: scale(1.1);
+}
+
+.car1 h1
+{
+   color: black;
+}
+.car1 h1:hover
+{
+	color: red;
+}
+.car2 h1
+{
+   color: black;
+}
+.car2 h1:hover
+{
+	color: red;
+}
+.car3 h1
+{
+   color: black;
+}
+.car3 h1:hover
+{
+	color: red;
+}
+.car2
+{
+	cursor:pointer;
+}
+
+.car3
+{
+	cursor:pointer;
+}
+.pro 
+{
+	margin-top: 100px;
+   margin-bottom: 100px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family:  Algirian;
+  cursor: pointer;
+  text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+  transition: 1s ease-in;
+}
+.pro:hover
+{
+	color: red;
+	transform: scale(0.9);
+}
+.wir .img1
+{
+
+	width: 400px;
+	animation: top 1s infinite;
+	cursor: pointer;
+}
+@keyframes top
+{
+	0%
+	{
+      transform: scale(0.9);
+	}
+	25%
+	{
+      transform: scale(1.1);
+	}
+	50%
+	{
+      transform: scale(1.1);
+	}
+	100%
+	{
+	  transform: scale(0.9);
+	}
+}
+
+.heat h1 
+{
+	color:black;
+	cursor: pointer;
+	font-family: Forte;
+
+}
+.heat h1:hover
+{
+	color: yellow;
+}
+#section2 .heat
+{
+
+  margin: 50px 0px 0px 0px;
+  border: 2px solid black;
+  width: 480px;
+  height: 230px;
+  background:linear-gradient(50deg,rgba(246,15,255,0.7),rgba(255,9,147,0.7));
+  border-radius: 40%;
+  padding: 10px;
+  border: none;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.6),-7px -7px 10px rgba(0,0,0, 0.6);
+}
+#section2 .pri
+{
+	color: black;
+	margin-top: -20px;
+}
+#section2 .pri:hover
+{
+	background-color: yellow;
+}
+.heat2 h1 
+{
+	color:black;
+	cursor: pointer;
+	font-family: Forte;
+
+}
+.heat2 h1:hover
+{
+	color: brown;
+}
+#section2 .heat2
+{
+  margin: 170px 0px 0px 0px;
+  border: 2px solid black;
+  width: 480px;
+  height: 230px;
+  background:linear-gradient(50deg,rgba(240,249,4,0.7),rgba(255,144,1,0.7));
+  border-radius: 40%;
+  padding: 10px;
+  border: none;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.6),-7px -7px 10px rgba(0,0,0, 0.6);
+}
+.wir .img2
+{
+
+	width: 300px;
+	animation: top 1s infinite;
+	cursor: pointer;
+	position: relative;
+	left: 150px;
+	top: 70px;
+}
+@keyframes top
+{
+	0%
+	{
+      transform: scale(0.9);
+	}
+	25%
+	{
+      transform: scale(1.1);
+	}
+	50%
+	{
+      transform: scale(1.1);
+	}
+	100%
+	{
+	  transform: scale(0.9);
+	}
+}
+#section2 .pri1
+{
+	color: black;
+	margin-top: -20px;
+
+
+}
+#section2 .pri1:hover
+{
+	background-color: brown;
+	color: white;
+}
+.he h1
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-size:8rem;
+  font-family:  Algirian;
+  cursor: pointer;
+  text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+  transition: 1s ease-in;
+}
+.he h1:hover
+{
+	color: red;
+	transform: scale(0.9);
+}
+
+#section3 img
+{
+    width: 300px;
+    height: 300px;
+    margin: px;
+    background:rgba(212,200,200,0.8) ;
+    transition: 1s ease-in-out;
+    filter: blur(2px);
+    border:2px solid black;
+    border-radius: 20px;
+    filter: blur(3px);
+
+}
+#section3 img:hover
+{
+	transform: scale(1.1);
+	filter: none;
+}
+
+
+.resimg
+{
+	 display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.resimg1
+{
+	margin-top: 50px;
+	 display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#about h1
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-size:5rem;
+  font-family:  Algirian;
+  cursor: pointer;
+  text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+  transition: 1s ease-in;
+}
+#about h1:hover
+{
+    color: red;
+    transform: scale(0.9);
+}
+.container .card
+{
+	border: 2px solid black;
+	padding: 10px;	
+	border-radius: 20px;
+	 box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.6),-3px -4px 7px rgba(0,0,0, 0.6);
+	 border: none;
+	 overflow: hidden;
+}
+.container .card img
+{
+	border-radius: 50%;
+	transition: 1s;
+box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.6),-3px -4px 3px rgba(0,0,0, 0.6);
+}
+.container .card img:hover
+{
+	transform: scale(1.1);
+
+}
+.container .im6
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 60px;
+}
+.container .im7
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 60px;
+}
+.container .im8
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 60px;
+}
+#hes h1
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-size:6rem;
+  font-family:  Algirian;
+  cursor: pointer;
+  text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.6);
+  transition: 1s ease-in;
+}
+#hes h1:hover
+{
+	color: red;
+	transform: scale(0.9);
+}
+.lab
+{
+
+}
+
+#section4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#section5 .container 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.from
+{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.8);
+	padding: 40px;
+	border-radius:40px ;
+	margin-bottom: 100px;
+}
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+#section5 .btn
+{
+  
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 20px;
+}
